@@ -9,6 +9,5 @@
                      [clj-xmemcached "0.1.1"]
                      [com.googlecode.xmemcached/xmemcached "1.3.5"]]
       :profiles
-      {:dev {:dependencies [
-                            [log4j/log4j "1.2.16"]
+      {:dev {:dependencies [[log4j/log4j "1.2.16"]
                             [org.slf4j/slf4j-log4j12 "1.5.6"]]}})

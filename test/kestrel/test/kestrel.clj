@@ -1,4 +1,4 @@
-(ns ifuche.test.util.kestrel
+(ns test.kestrel
   (:require [clojure.string :as string]
             [kestrel :as kestrel])
   (:use clojure.test)

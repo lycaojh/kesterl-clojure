@@ -1,7 +1,7 @@
 (ns
   ^{:doc "The core clojure kestrel use xmemcached"
     :author "Junhui cao"}
-  kestrel
+  kestrel.kestrel
   (:import (net.rubyeye.xmemcached MemcachedClient XMemcachedClientBuilder)
            (net.rubyeye.xmemcached.utils AddrUtil)
            (net.rubyeye.xmemcached.command KestrelCommandFactory)))
